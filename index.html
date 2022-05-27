@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- SOL TARAF -->
+    <h2 class="main-text">Checkout</h2>
+            <!-- SOL TARAF -->
+            <div id="container-2">
+                <div class="item-1">
+                    <img src="https://aaron-clarusway.github.io/form/IMG/photo1.png" alt="" class="item-1-img">
+                    <div class="item-1-text">
+                        <div class="item-detail">
+                            <h4 class="item-title">Vintage Backbag</h4>
+                            <h4 class="price-text">$<span class="price-num">25.98</span><span class="price-overline"><del>$34.99</del></span></h4>
+                        </div>
+                        <div class="count">
+                            <button class="dec"><ion-icon name="remove-outline"></ion-icon></button>
+                            <p class="quantity">1</p>
+                            <button class="inc"><ion-icon name="add-outline"></ion-icon></button>
+                        </div>
+                        <div class="rmv-container">
+                            <button class="rmv-btn">Remove</button>
+                        </div>
+                        <div class="total-amt-container">
+                            <p id="bag-total-amt" >Product Total: $<span id="bag-total" class="total-amt">25.98</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-2">
+                    <img src="https://aaron-clarusway.github.io/form/IMG/photo2.png" alt="" class="item-2-img">
+                    <div class="item-2-text">
+                        <div class="item-detail">
+                            <h4 class="item-title">Levi Shoes</h4>
+                            <h4 class="price-text">$<span class="price-num">45.99</span><span class="price-overline"><del>$54.99</del></span></h4>
+                        </div>
+                        <div class="count">
+                            <button class="dec"><ion-icon name="remove-outline"></ion-icon></button>
+                            <p class="quantity">1</p>
+                            <button class="inc"><ion-icon name="add-outline"></ion-icon></button>
+                        </div>
+                        <div class="rmv-container">
+                            <button class="rmv-btn">Remove</button>
+                        </div>
+                        <div class="total-amt-container">
+                            <p id="shoes-total-amt">Product Total: $<span id="shoes-total" class="total-amt">45.99</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-3">
+                    <img src="./watch.jpg" alt="" class="item-3-img">
+                    <div class="item-3-text">
+                        <div class="item-detail">
+                            <h4 class="item-title">Antique Clock</h4>
+                            <h4 class="price-text">$<span class="price-num">74.99</span><span class="price-overline"><del>$94.99</del></span></h4>
+                        </div>
+                        <div class="count">
+                            <button class="dec"><ion-icon name="remove-outline"></ion-icon></button>
+                            <p class="quantity">1</p>
+                            <button class="inc"><ion-icon name="add-outline"></ion-icon></button>
+                        </div>
+                        <div class="rmv-container">
+                            <button class="rmv-btn">Remove</button>
+                        </div>
+                        <div class="total-amt-container">
+                            <p id="watch-total-amt">Product Total: $<span id="watch-total" class="total-amt">74.99</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="yazi">
+                    <p>Subtotal</p>
+                    <p>$<span id="subtotal">0</span></p>
+                </div>
+                <div class="yazi">
+                    <p>Tax(%18)</p>
+                    <p>$<span id="tax">0</span></p>
+                </div>
+                <div class="yazi">
+                    <p>Shipping</p>
+                    <p>$15</p>
+                </div>
+                <div class="yazi">
+                    <p>Total</p>
+                    <p>$<span id="total">0</span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
